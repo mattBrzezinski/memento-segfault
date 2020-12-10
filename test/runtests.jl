@@ -1,0 +1,3 @@
+using Segfault
+
+f()

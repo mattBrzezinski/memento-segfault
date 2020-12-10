@@ -1,0 +1,17 @@
+name = "Segfault"
+uuid = "9341520b-331d-57cd-baf0-c27f46988a5f"
+
+[deps]
+Memento = "f28f55f0-a522-5efc-85c2-fe41dfb9b2d9"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Memento = "1"
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+[targets]
+test = ["Test", "UUIDs"]
